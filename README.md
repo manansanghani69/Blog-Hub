@@ -44,7 +44,7 @@ flutter pub get
 
 * Create a Supabase project ([https://supabase.com/docs](https://supabase.com/docs)).
 * Obtain your Supabase project URL and API key from the project settings.
-* Create a new file named `config.dart` in the root of your project and add the following code, replacing the placeholders with your actual values:
+* A file named `lib/core/secrets/app_secrets.dart` in the root of your project and add the following code, replacing the placeholders with your actual values:
 
 ```dart
 const supabaseUrl = 'YOUR_SUPABASE_URL';
